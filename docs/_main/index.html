@@ -1,13 +1,15 @@
 <!--
+current instance:
+  https://afdsi.com/164189201710000061/index.html
+
 some links are wrong
 
 Truett has localized SVG as EWB here:
-	https://github.com/truett-software/CTD
+  https://github.com/truett-software/CTD
 
-add root values and font-variation-settings for
-	RobotoFlex
+add root values and font-variation-settings for RobotoFlex
 support:
-	<p style="font-family:RobotoFlex;font-size:1.2em;font-variation-settings:'YTAS' 750,'YTDE' -250,'GRAD' 0,'YTLC' 500,'slnt' 30,'YOPQ' 116,'wdth' 100;">
+  <p style="font-family:RobotoFlex;font-size:1.2em;font-variation-settings:'YTAS' 750,'YTDE' -250,'GRAD' 0,'YTLC' 500,'slnt' 30,'YOPQ' 116,'wdth' 100;">
 -->
 
 <!DOCTYPE html>
@@ -15,61 +17,63 @@ support:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<link rel="shortcut icon" href="https://ontomatica.io/static/image/logo/onto-symbol-w252-h252.svg"/>
+<link rel="shortcut icon"
+  href="https://ontomatica.io/static/image/logo/onto-symbol-w252-h252.svg"/>
 <title>
-Einstein Riddle 22-05-28
+Einstein Riddle 23-07-13
 </title>
-<link rel="canonical" href="https://afdsi.com/164189201710000061/index.html" />
+<link rel="canonical"
+  href="https://afdsi.com/164189201710000061/index.html" />
+
+<link rel="preload" as="script"
+  href="https://cdn.ampproject.org/v0.js" />
+<link rel="preload" as="script"
+  href="https://cdn.ampproject.org/v0/amp-story-1.0.js" />
 
 <!-- pdf source: https://stackoverflow.com/questions/62319786/corb-issue-with-pdf-preload -->
-<link rel="preload" as="script"
-	href="https://cdn.ampproject.org/v0.js" />
-<link rel="preload" as="script"
-	href="https://cdn.ampproject.org/v0/amp-story-1.0.js" />
+<link rel="preload" as="fetch" type="application/pdf" crossorigin
+  href="https://s3.amazonaws.com/benetta/16418920171000000061/reference/einstein-riddle-manual-solution.pdf" />
+<link rel="preload" as="fetch" type="application/pdf" crossorigin
+  href="https://s3.amazonaws.com/benetta/16418920171000000061/reference/solving-construction-machine-allocation-problems.pdf" />
 
-<link rel="preload" as="fetch" type="application/pdf"
-	href="https://s3.amazonaws.com/benetta/16418920171000000061/reference/einstein-riddle-manual-solution.pdf" crossorigin />
-<link rel="preload" as="fetch" type="application/pdf"
-	href="https://s3.amazonaws.com/benetta/16418920171000000061/reference/solving-construction-machine-allocation-problems.pdf" crossorigin />
-
-<link rel="preload" as="font" type="font/ttf"
-	href="https://s3.amazonaws.com/benetta.net/fonts/recursive-woff2/Recursive-VF.ttf" crossorigin />
-<link rel="preload" as="font" type="font/woff2"
-	href="https://s3.amazonaws.com/benetta.net/fonts/robotoflex-woff2/RobotoFlex.woff2" crossorigin />
-<link rel="preload" as="font" type="font/woff2"
-	href="https://s3.amazonaws.com/benetta.net/fonts/zilla-slab/zilla-slab-v6-latin-500.woff2" crossorigin />
+<link rel="preload" as="font" type="font/ttf" crossorigin
+  href="https://s3.amazonaws.com/benetta.net/fonts/recursive/Recursive-VF.ttf" />
+<link rel="preload" as="font" type="font/ttf" crossorigin
+  href="https://s3.amazonaws.com/benetta.net/fonts/robotoflex/RobotoFlex-regular.ttf" />
+<link rel="preload" as="font" type="font/ttf" crossorigin
+  href="https://s3.amazonaws.com/benetta.net/fonts/zilla-slab/ZillaSlab-SemiBold.ttf" />
 
 <script async
-	src="https://cdn.ampproject.org/v0.js"></script>
+  src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-bind"
-	src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+  src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
 <script async custom-element="amp-google-document-embed"
-	src="https://cdn.ampproject.org/v0/amp-google-document-embed-0.1.js"></script>
+  src="https://cdn.ampproject.org/v0/amp-google-document-embed-0.1.js"></script>
 <script async custom-element="amp-iframe"
-	src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+  src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
 <script async custom-element="amp-story"
-	src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+  src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
 <script async custom-element="amp-story-interactive"
-	src="https://cdn.ampproject.org/v0/amp-story-interactive-0.1.js"></script>
+  src="https://cdn.ampproject.org/v0/amp-story-interactive-0.1.js"></script>
 <script async custom-element="amp-story-panning-media"
-	src="https://cdn.ampproject.org/v0/amp-story-panning-media-0.1.js"></script>
+  src="https://cdn.ampproject.org/v0/amp-story-panning-media-0.1.js"></script>
 <script async custom-element="amp-story-shopping"
-	src="https://cdn.ampproject.org/v0/amp-story-shopping-0.1.js"></script>
+  src="https://cdn.ampproject.org/v0/amp-story-shopping-0.1.js"></script>
 
 <style amp-custom="">
 
-/***************************
-*   Font: Recursive Variable
-*   Recursive-VF.ttf
-*/
+/**************************
+ * Font: Recursive Variable
+ * Recursive-VF.ttf
+ */
 
 @font-face {
-    font-family: Recursive-2019;
-    src:url("https://s3.amazonaws.com/benetta.net/fonts/recursive-woff2/Recursive-VF.ttf") format("truetype");
-    font-display: swap;
+    font-family: Recursive;
+    src:url("https://s3.amazonaws.com/benetta.net/fonts/recursive/Recursive-VF.ttf") format("truetype");
     text-align: initial;
     font-weight: 100 600;
     font-stretch: 25% 151%;
+    font-display: swap;
 }
 
 /*******************
@@ -78,11 +82,11 @@ Einstein Riddle 22-05-28
 
 @font-face {
     font-family: ZillaSlab;
-    src:url('https://s3.amazonaws.com/benetta.net/fonts/zilla-slab/zilla-slab-v6-latin-500.woff2') format('woff2');
-    font-display: swap;
+    src:url("https://s3.amazonaws.com/benetta.net/fonts/zilla-slab/ZillaSlab-SemiBold.ttf") format("truetype");
     text-align: initial;
     font-style: normal;
-    font-weight: 100 600;
+    font-weight: 500;
+    font-display: swap;
 }
 
 /****************************
@@ -91,11 +95,11 @@ Einstein Riddle 22-05-28
 
 @font-face {
     font-family: RobotoFlex;
-    src: url("https://s3.amazonaws.com/benetta.net/fonts/robotoflex-woff2/RobotoFlex.woff2") format("woff2");
-    font-display: swap;
+    src: url("https://s3.amazonaws.com/benetta.net/fonts/robotoflex/RobotoFlex-Regular.ttf") format("truetype");
     font-style: normal;
-    font-weight: 100 1000;
+    font-weight: 400;
     font-stretch: 25% 151%;
+    font-display: swap;
 }
 
 /*******************
@@ -103,10 +107,10 @@ Einstein Riddle 22-05-28
  */
 @font-face {
     font-family: NotoSerif;
-    src: url("https://s3.amazonaws.com/benetta.net/fonts/noto-serif/noto-serif-v11-latin-regular.woff2") format("woff2");
-    font-display: swap;
+    src: url("https://s3.amazonaws.com/benetta.net/fonts/noto-serif/NotoSerif-Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: 400;
+    font-display: swap;
 }
 
 /***********************
@@ -115,31 +119,22 @@ Einstein Riddle 22-05-28
 
 @font-face {
     font-family: world-of-water;
-    src: url("https://s3.amazonaws.com/benetta.net/fonts/world-of-water/world-of-water-v2.woff2") format("woff2");
-    font-display: swap;
+    src: url("https://s3.amazonaws.com/benetta.net/fonts/world-of-water/world-of-water-v2.ttf") format("truetype");
     font-style: normal;
     font-weight: 400;
+    font-display: swap;
 }
 
-/*********************************
- *  Font: Annie Use Your Telescope
+/********************************
+ * Font: Annie Use Your Telescope
  */
 
 @font-face {
     font-family: AnnieUseYourTelescope;
-    src:url('https://s3.amazonaws.com/benetta.net/fonts/annie-use-telescope/AnnieUseYourTelescope.ttf') format('truetype');
-    font-display:swap;
+    src:url("https://s3.amazonaws.com/benetta.net/fonts/annie-use-telescope/AnnieUseYourTelescope.ttf") format("truetype");
     font-style: normal;
+    font-display:swap;
 }
-
-@font-face {font-family:system; font-style:normal; font-weight:300; src:local(".SFNSText-Light"),local(".HelveticaNeueDeskInterface-Light"),local(".LucidaGrandeUI"),local("Ubuntu Light"),local("Segoe UI Light"),local("Roboto-Light"),local("DroidSans"),local("Tahoma");}
-@font-face {font-family:system; font-style:italic; font-weight:300; src:local(".SFNSText-Light"),local(".HelveticaNeueDeskInterface-Light"),local(".LucidaGrandeUI"),local("Ubuntu Light"),local("Segoe UI Light"),local("Roboto-Light"),local("DroidSans"),local("Tahoma");}
-@font-face {font-family:system; font-style:normal; font-weight:400; src:local(".SFNSText-Light"),local(".HelveticaNeueDeskInterface-Light"),local(".LucidaGrandeUI"),local("Ubuntu Light"),local("Segoe UI Light"),local("Roboto-Light"),local("DroidSans"),local("Tahoma");}
-@font-face {font-family:system; font-style:italic; font-weight:400; src:local(".SFNSText-Light"),local(".HelveticaNeueDeskInterface-Light"),local(".LucidaGrandeUI"),local("Ubuntu Light"),local("Segoe UI Light"),local("Roboto-Light"),local("DroidSans"),local("Tahoma");}
-@font-face {font-family:system; font-style:normal; font-weight:500; src:local(".SFNSText-Light"),local(".HelveticaNeueDeskInterface-Light"),local(".LucidaGrandeUI"),local("Ubuntu Light"),local("Segoe UI Light"),local("Roboto-Light"),local("DroidSans"),local("Tahoma");}
-@font-face {font-family:system; font-style:italic; font-weight:500; src:local(".SFNSText-Light"),local(".HelveticaNeueDeskInterface-Light"),local(".LucidaGrandeUI"),local("Ubuntu Light"),local("Segoe UI Light"),local("Roboto-Light"),local("DroidSans"),local("Tahoma");}
-@font-face {font-family:system; font-style:normal; font-weight:700; src:local(".SFNSText-Light"),local(".HelveticaNeueDeskInterface-Light"),local(".LucidaGrandeUI"),local("Ubuntu Light"),local("Segoe UI Light"),local("Roboto-Light"),local("DroidSans"),local("Tahoma");}
-@font-face {font-family:system; font-style:italic; font-weight:700; src:local(".SFNSText-Light"),local(".HelveticaNeueDeskInterface-Light"),local(".LucidaGrandeUI"),local("Ubuntu Light"),local("Segoe UI Light"),local("Roboto-Light"),local("DroidSans"),local("Tahoma");}
 
 /* used by recursive */
 :root {
@@ -181,7 +176,7 @@ h2 {
     display: inline-block;
     font-size: 1em;
     font-weight: 400;
-	line-height: 1em;
+  line-height: 1em;
     border: none;
     background-color: #808080;
     opacity: 0.7;
@@ -191,7 +186,7 @@ h2 {
     display: inline-block;
     font-size: 1em;
     font-weight: 400;
-	line-height: 1em;
+  line-height: 1em;
     border: none;
     background-color: #808080;
     opacity: 0.7;
@@ -201,7 +196,7 @@ h2 {
     display: inline-block;
     font-size: 1em;
     font-weight: 400;
-	line-height: 1em;
+  line-height: 1em;
     border: none;
     background-color: #808080;
     opacity: 0.7;
@@ -250,11 +245,6 @@ h2 {
     color: #ffffff;
 }
 
-/*
-    font-family: Amstelvar-Roman;
-    font-family: ZillaSlab;
-*/
-
 h3 {
     font-family: ZillaSlab;
     font-size: calc(2.6 * var(--story-page-vw));
@@ -265,7 +255,7 @@ h3 {
 }
 
 h4 {
-    font-family: Recursive-2019;
+    font-family: Recursive;
     font-size: calc(2 * var(--story-page-vw));
     font-weight: 300;
     --CASL: 1;
@@ -285,7 +275,7 @@ h4:hover {
 }
 
 h5 {
-    font-family: Recursive-2019;
+    font-family: Recursive;
     font-size: calc(2 * var(--story-page-vw));
     font-weight: 300;
     --CASL: 1;
@@ -305,7 +295,7 @@ h5:hover {
 }
 
 li {
-    font-family: Recursive-2019;
+    font-family: Recursive;
     font-size: calc(1.2 * var(--story-page-vw));
     font-weight: 300;
     font-feature-settings: "ss01" on, "ss02" on, "ss08" on;
@@ -329,9 +319,9 @@ li:hover {
     line-height: 0.5em;
 }
 
-/****************
-*   SDL additions
-*/
+/***************
+ * SDL additions
+ */
 
 .title-centered {
     text-align: center;
@@ -374,9 +364,9 @@ li:hover {
     opacity: 0.3;
 }
 
-/*************
-*   cover page
-*/
+/************
+ * cover page
+ */
 
 .bg-w {
     background-color: #fff;
@@ -452,7 +442,7 @@ li:hover {
 }
 
 .text-fatty {
-    font-family: Recursive-2019;
+    font-family: Recursive;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -467,9 +457,9 @@ li:hover {
 
 /* end cover */
 
-/***************************
-*   Attachment tab selectors
-*/
+/**************************
+ * Attachment tab selectors
+ */
 
 .tabs {
     width: 710px;
@@ -536,9 +526,9 @@ li:hover {
     display: block;
 }
 
-/********************
-*   Story interactive
-*/
+/*******************
+ * Story interactive
+ */
 
 .center {
     position: absolute;
@@ -564,9 +554,9 @@ li:hover {
     --interactive-accent-color: red;
 }
 
-/**********************
-*   Attachment DL-DT-DD
-*/
+/*********************
+ * Attachment DL-DT-DD
+ */
 
 /* test switch to em */
 .chartlegend span {
@@ -659,11 +649,11 @@ blockquote:before {
 
 /* end attachment */
 
-/************************
-*   from sequence 10 - 58
-*   E:_rosetta-unified-data-table+color.xlsx
-*   E:_color-palette__2.xlsx
-*/
+/***********************
+ * from sequence 10 - 58
+ * E:_rosetta-unified-data-table+color.xlsx
+ * E:_color-palette__2.xlsx
+ */
 
 .c-c0334d {
     background-color: #c0334d;
@@ -813,10 +803,10 @@ blockquote:before {
     background-color: #4f728e;
 }
 
-/**********
-*   SVG CSS
-*   cannot use em, rem in SVG
-*/
+/*********
+ * SVG CSS
+ * cannot use em, rem in SVG
+ */
 
 #diagram-ide-title-no {
     width: 90%;
@@ -831,13 +821,13 @@ blockquote:before {
     fill: #fff;
 }
 .sz-46 {
-    font-family: Recursive-2019;
+    font-family: Recursive;
     font-size: 46px;
     fill: #fff;
     font-feature-settings: "ss01" on, "ss02" on, "ss08" on;
 }
 .sz-40 {
-    font-family: Recursive-2019;
+    font-family: Recursive;
     font-size: 40px;
     fill: #fff;
     font-feature-settings: "ss01" on, "ss02" on, "ss08" on;
@@ -902,9 +892,9 @@ path {
     fill: #99d594;
 }
 
-/********************
-*   Attachment iFrame
-*/
+/*******************
+ * Attachment iFrame
+ */
 
 /* open target page */
 /* test switch to em */
@@ -1029,9 +1019,9 @@ path {
     display: inline-block;
 }
 
-/************************************************************
-*   grid-layer template=vertical position=landscape-half-left
-*/
+/***********************************************************
+ * grid-layer template=vertical position=landscape-half-left
+ */
 
 .half-left {
     padding-top: 270px;
@@ -1040,9 +1030,9 @@ path {
     padding-top: 270px;
 }
 
-/**********************
-*   attachment shopping
-*/
+/*********************
+ * attachment shopping
+ */
 
 .text-wrapper {
     display: flex;
@@ -1130,9 +1120,9 @@ amp-img.scrim:after {
 
 /* end-attachment-shopping */
 
-/**************************
-*   amp-story-panning-media
-*/
+/*************************
+ * amp-story-panning-media
+ */
 
 .content-wrapper {
     display: flex;
@@ -1215,8 +1205,8 @@ amp-img.scrim:after {
 }
 
 /**********
-*   spacers
-*/
+ * spacers
+ */
 
 .space-1 {
     margin-bottom: 1em;
@@ -1225,65 +1215,8 @@ amp-img.scrim:after {
     margin-bottom: 2em;
 }
 
-/*********
-*   @media
-*/
-
-/* iPhone SE Portrait */
-@media only screen and (min-width:375px) and (orientation:portrait){h2{font-size:calc(8.5 * var(--story-page-vw));}.h2-q1{font-size:1.4em;line-height:1.2em;padding:2px 18px 2px 18px;}.h2-q2{font-size:2.0em;line-height:0.8em;padding:6px 18px 12px 18px;}.h2-q3{font-size:1.6em;line-height:1.0em;padding:6px 18px 6px 18px;}h3{font-size:calc(5.5 * var(--story-page-vw));margin-top:1em;}h4{font-size:calc(6.0 * var(--story-page-vw));}li{font-size:calc(3.0 * var(--story-page-vw));}.half-left{margin-top:-62px;}.half-right{padding-top:372px;}.darken{filter:brightness(0.6) blur(8px);}#logo-onto{width:260%;height:260%;}}
-
-/* iPhone 12 Portrait */
-@media only screen and (min-width:390px) and (orientation:portrait){li{font-size:calc(3.3 * var(--story-page-vw));}.half-left{margin-top:-50px;}.half-right{padding-top:420px;}.darken{filter:brightness(0.6) blur(8px);}}
-
-/* iPhone SE Landscape */
-@media only screen and (min-width:667px) and (orientation:landscape){h2{font-size:calc(3.6 * var(--story-page-vw));line-height:0.9em;}.h2-q1{font-size:0.5em;line-height:1.2em;padding:2px 18px 2px 18px;}.h2-q2{font-size:0.6em;line-height:1.4em;padding:0px 18px 0px 18px;}.h2-q3{font-size:0.6em;line-height:1.6em;padding:0px 18px 0px 18px;}h3{font-size:calc(3.0 * var(--story-page-vw));}h4{font-size:calc(2.1 * var(--story-page-vw));}li{font-size:calc(1.6 * var(--story-page-vw));}.half-left{margin-top:-160px;}.half-right{margin-top:-160px;}#logo-onto{width:180%;height:180%;}}
-
-/* iPad Mini Portrait */
-@media only screen and (min-width:768px) and (orientation:portrait){h2{font-size:calc(8.0 * var(--story-page-vw));line-height:1.0em;}.h2-q2{font-size:1.4em;line-height:1.0em;padding:0px 18px 12px 18px;}.h2-q3{font-size:1.4em;line-height:1.0em;padding:0px 18px 12px 18px;}h3{font-size:calc(5.0 * var(--story-page-vw));margin-top:1em;}h4{font-size:calc(5.8 * var(--story-page-vw));}li{font-size:calc(2.4 * var(--story-page-vw));}.half-left{padding-top:400px;}.half-right{padding-top:585px;}.darken{filter:brightness(0.6) blur(8px);}}
-
-/* PERFECT */
-/* iPad MINE Portrait 810 */
-/* iPad Air Portrait */
-@media only screen and (min-width:810px) and (orientation:portrait)
-{
-h2{font-size:calc(7.0 * var(--story-page-vw));}
-h3{font-size:calc(4.0 * var(--story-page-vw));margin-top:1em;}
-h4{font-size:calc(5.0 * var(--story-page-vw));line-height:1em;}
-li{font-size:calc(2.6 * var(--story-page-vw));}
-.half-left{margin-top:-120px;}
-.half-right{padding-top:560px;}
-.darken{filter:brightness(0.6) blur(8px);}
-}
-
-/* iPhone 12 Landscape */
-@media only screen and (min-width:844px) and (orientation:landscape){li{font-size:calc(1.4 * var(--story-page-vw));}.half-left{margin-top:-160px;}.half-right{padding-top:270px;}#diagram-netflix,#diagram-reasoner,#diagram-ide-title-no{width:90%;}#quiz-1{margin-top:5rem;}#quiz-2{margin-top:5rem;}}
-
-/* PERFECT */
-/* my iPad Landscape 1080 */
-@media only screen and (min-width:1080px) and (orientation:landscape)
-{
-h2{font-size:calc(6.0 * var(--story-page-vw));}
-.h2-q1{font-size:1.0em;line-height:1.0em;padding:2px 18px 2px 18px;}.h2-q2{font-size:1.0em;line-height:1.4em;padding:0px 18px 0px 18px;}.h2-q3{font-size:1.0em;line-height:1.0em;padding:0px 18px 12px 18px;}
-h3{font-size:calc(4.0 * var(--story-page-vw));margin-top:1em;}
-h4{font-size:calc(3.0 * var(--story-page-vw));line-height:1em;}
-li{font-size:calc(1.8 * var(--story-page-vw));}
-.half-left{margin-top:10px;}
-.half-right{padding-top:440px;}
-#how-to-know{width:100%;height:100%;}
-#diagram-netflix{width:100%;height:100%;}
-#diagram-ide-title-no{width:100%;height:100%;}
-#diagram-ontology{width:100%;height:100%;}
-#diagram-reasoner{width:100%;height:100%;}
-}
-
-/* iPad Air Landscape */
-@media only screen and (min-width:1180px) and (orientation:landscape){h2{font-size:calc(5.2 * var(--story-page-vw));}h3{font-size:calc(4.0 * var(--story-page-vw));margin-top:1em;}h4{font-size:calc(3.0 * var(--story-page-vw));}li{font-size:calc(2.0 * var(--story-page-vw));}.half-left{margin-top:0px;}.half-right{padding-top:430px;}#how-to-know{width:100%;height:100%;}#diagram-netflix{width:100%;height:100%;}}
-
-/* desktop Landscape */
-@media only screen and (min-width:1190px) and (orientation:landscape){h2{font-size:calc(4.2 * var(--story-page-vw));line-height:1.0em;}h3{font-size:calc(3.2 * var(--story-page-vw));line-height:1.0em;}h4{font-size:calc(2.5 * var(--story-page-vw));}li{font-size:calc(1.8 * var(--story-page-vw));}.half-left{margin-top:-66px;}.half-right{padding-top:365px;}#how-to-know{width:90%;height:150%;}#diagram-netflix{width:90%;height:90%;}#ontology{width:100%;height:120%;}}
-
-
 </style>
+
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
 </head>
@@ -1291,17 +1224,45 @@ li{font-size:calc(1.8 * var(--story-page-vw));}
 <amp-story
     standalone
     supports-landscape
-    title="Connect the Dots"
+    title="Machine reasoning"
     publisher="Ontomatica"
     publisher-logo-src="https://example.com/logo/1x1.png"
     poster-portrait-src="https://example.com/my-story/poster/3x4.jpg"
 >
 
-<!-- begin with 10? -->
-
 <!-- good -->
-<amp-story-page id="item-11" data-item-label="title-page">
-<amp-story-grid-layer template="fill"><amp-img id="" data-item-role="background" data-item-type="static" data-item-label="background-neural-network-440044-FFE1FFW" src="https://s3.amazonaws.com/benetta/16418920171000000061/reference/background-neural-network-440044-FFE1FFW-w400-h371.svg" width="400" height="371" layout="responsive"></amp-img></amp-story-grid-layer>
+<amp-story-page id="item-10" data-item-label="title-page">
+<amp-story-grid-layer template="fill">
+<!--
+correct
+-->
+<amp-img
+  id=""
+  data-item-role="background"
+  data-item-type="static"
+  data-item-label="background-neural-network-440044-FFE1FFW"
+  src="https://s3.amazonaws.com/benetta/16418920171000000061/reference/background-neural-network-440044-FFE1FFW-w400-h371.svg" 
+  width="400"
+  height="371"
+  layout="responsive"
+></amp-img>
+<!--
+error
+<amp-img
+  id=""
+  data-item-role="background"
+  data-item-type="static"
+  data-item-label="background-neural-network-440044-FFE1FFW"
+  src="
+  https://raw.githubusercontent.com/truett-software/webp-images/main/background-neural-network-440044-FFE1FFW-w400-h371.webp
+  "
+  width="400"
+  height="371"
+  layout="responsive"
+></amp-img>
+-->
+
+</amp-story-grid-layer>
 <amp-story-grid-layer class="noedge c-bottom mb" template="vertical"><div class="paper color-s bg-w cover-f d-flex"><div class="flex-fill pt pb"><hgroup class="ml-s"><div class="text-fatty color-p">connecting the dots</div><h1>Solve Problems with Machine Reasoning</h1></hgroup><div class="w-80 mx-a text-fatty">by Paula Perez</div></div><div class="sep-v"></div></div></amp-story-grid-layer>
 </amp-story-page>
 
@@ -1597,8 +1558,30 @@ The following uses playful &#x201C;lorem ipsum&#x201D; style text to illustrate 
 </div>
 </amp-story-grid-layer>
 <amp-story-page-attachment layout="nodisplay" cta-image="https://s3.amazonaws.com/benetta.net/media/logo/ontomatica/ontomatica-symbol-w33-h36-color-1F64FF-bgnd-white.svg" cta-text="More about &#x0050;&#x0072;&#x006F;&#x0074;&#x00E9;&#x0067;&#x00E9;&#x000A;" data-title="More about &#x0050;&#x0072;&#x006F;&#x0074;&#x00E9;&#x0067;&#x00E9;&#x000A;"><section class="p-s"><dl class="chartlegend"><div class="av"></div><dt>&#x0050;&#x0072;&#x006F;&#x0074;&#x00E9;&#x0067;&#x00E9;&#x000A;</dt><dd><span class="c-c0334d mr-s"></span>&#x0050;&#x0072;&#x006F;&#x0074;&#x00E9;&#x0067;&#x00E9;&#x000A; provides a graphic user interface to define ontologies.</dd><dd><span class="c-f3d480 mr-s"></span>&#x0050;&#x0072;&#x006F;&#x0074;&#x00E9;&#x0067;&#x00E9;&#x000A; is developed at Stanford University and is made available under the BSD 2-clause license.</dd><dd><span class="c-f1931b mr-s"></span>Investigate &#x0050;&#x0072;&#x006F;&#x0074;&#x00E9;&#x0067;&#x00E9;&#x000A;<a class="uline" href="https://protege.stanford.edu/" target="_blank">here</a>.</dd><dd><span class="c-8f715b mr-s"></span>Below is a &#x0050;&#x0072;&#x006F;&#x0074;&#x00E9;&#x0067;&#x00E9;&#x000A; screenshot from the Human Phenotype ontology.</dd></dl>
-<amp-img id="" data-item-role="attachment" data-item-type="static" data-item-label="editor-protege" src="https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w1596-h1494.jpg" width="1596" height="1492" layout="responsive" srcset="https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w200.jpg w200,https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w360.jpg w360,https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w498.jpg w498,https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w640.jpg w640,https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w706.jpg w706,https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w799.jpg w799,https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w898.jpg w898,https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w917.jpg w917,https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w1224.jpg w1224,https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w1304.jpg w1304,https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w1382.jpg w1382,https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w1397.jpg w1397,https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w1400.jpg w1400"></amp-img>
-
+<amp-img
+  id=""
+  data-item-role="attachment"
+  data-item-type="static"
+  data-item-label="editor-protege"
+  src="https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w1596-h1494.jpg"
+  width="1596"
+  height="1492"
+  layout="responsive"
+  srcset="
+  https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w200.jpg   200w,
+  https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w360.jpg   360w,
+  https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w498.jpg   498w,
+  https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w640.jpg   640w,
+  https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w706.jpg   706w,
+  https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w799.jpg   799w,
+  https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w898.jpg   898w,
+  https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w917.jpg   917w,
+  https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w1224.jpg 1224w,
+  https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w1304.jpg 1304w,
+  https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w1382.jpg 1382w,
+  https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w1397.jpg 1397w,
+  https://s3.amazonaws.com/benetta/16418920171000000061/reference/protege-w1400.jpg 1400w"
+></amp-img>
 </section><hr></amp-story-page-attachment>
 </amp-story-page>
 
@@ -1840,7 +1823,7 @@ The following uses playful &#x201C;lorem ipsum&#x201D; style text to illustrate 
 <!-- good -->
 <amp-story-page id="item-27" data-item-label="protege-setup">
 <amp-story-grid-layer template="fill">
-<amp-story-panning-media data-y="-45%" data-zoom=".45" layout="fill">
+<amp-story-panning-media data-y="-45%" data-zoom="0.45" layout="fill">
 
 <amp-img id="" data-item-role="" data-item-type="animated" data-item-label="setup-protege" animate-in="fade-in" animate-in-duration="4s" src="https://s3.amazonaws.com/benetta/16418920171000000061/reference/setup-norwegian-w1680-h973.png" width="1680" height="973" layout="fill" srcset="https://s3.amazonaws.com/benetta/16418920171000000061/reference/setup-norwegian-w200.png 200w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/setup-norwegian-w664.png 664w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/setup-norwegian-w998.png 998w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/setup-norwegian-w1400.png 1400w"></amp-img>
 
@@ -1885,7 +1868,7 @@ The following uses playful &#x201C;lorem ipsum&#x201D; style text to illustrate 
 <!-- good -->
 <amp-story-page id="item-29" data-item-label="question-drinks-water">
 <amp-story-grid-layer template="fill">
-<amp-story-panning-media data-y="-45%" data-zoom=".45" layout="fill">
+<amp-story-panning-media data-y="-45%" data-zoom="0.45" layout="fill">
 
 <amp-img id="" data-item-role="" data-item-type="animated" data-item-label="solution-norwegian" animate-in="fade-in" animate-in-duration="4s" src="https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-norwegian-w1680-h973.png" width="1680" height="973" layout="fill" srcset="https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-norwegian-w200.png 200w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-norwegian-w660.png 660w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-norwegian-w981.png 981w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-norwegian-w1400.png 1400w"></amp-img>
 
@@ -1906,7 +1889,7 @@ The following uses playful &#x201C;lorem ipsum&#x201D; style text to illustrate 
 <!-- good -->
 <amp-story-page id="item-30" data-item-label="answer-drinks-water">
 <amp-story-grid-layer template="fill">
-<amp-story-panning-media data-x="-25%" data-y="-25%" data-zoom=".90" layout="fill">
+<amp-story-panning-media data-x="-25%" data-y="-25%" data-zoom="0.90" layout="fill">
 
 <amp-img id="" data-item-role="" data-item-type="static" data-item-label="solution-norwegian" src="https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-norwegian-w1680-h973.png" width="1680" height="973" layout="fill" srcset="https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-norwegian-w200.png 200w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-norwegian-w660.png 660w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-norwegian-w981.png 981w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-norwegian-w1400.png 1400w"></amp-img>
 
@@ -1930,7 +1913,7 @@ The following uses playful &#x201C;lorem ipsum&#x201D; style text to illustrate 
 <!-- good -->
 <amp-story-page id="item-31" data-item-label="question-owns-zebra">
 <amp-story-grid-layer template="fill">
-<amp-story-panning-media data-y="-45%" data-zoom=".45" layout="fill">
+<amp-story-panning-media data-y="-45%" data-zoom="0.45" layout="fill">
 
 <amp-img id="" data-item-role="" data-item-type="animated" data-item-label="solution-japanese" animate-in="fade-in" animate-in-duration="4s" src="https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-japanese-w1680-h973.png" width="1680" height="973" layout="fill" srcset="https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-japanese-w200.png 200w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-japanese-w687.png 687w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-japanese-w1066.png 1066w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-japanese-w1400.png 1400w"></amp-img>
 
@@ -1951,7 +1934,7 @@ The following uses playful &#x201C;lorem ipsum&#x201D; style text to illustrate 
 <!-- good -->
 <amp-story-page id="item-32" data-item-label="answer-owns-zebra">
 <amp-story-grid-layer template="fill">
-<amp-story-panning-media data-x="-25%" data-y="-25%" data-zoom=".90" layout="fill">
+<amp-story-panning-media data-x="-25%" data-y="-25%" data-zoom="0.90" layout="fill">
 
 <amp-img id="" data-item-role="" data-item-type="static" data-item-label="solution-japanese" src="https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-japanese-w1680-h973.png" width="1680" height="973" layout="fill" srcset="https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-japanese-w200.png 200w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-japanese-w687.png 687w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-japanese-w1066.png 1066w,https://s3.amazonaws.com/benetta/16418920171000000061/reference/solution-japanese-w1400.png 1400w"></amp-img>
 
