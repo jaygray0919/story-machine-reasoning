@@ -1,16 +1,15 @@
 <svg id="diagram-ontology" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1561 1028" xml:space="preserve">
 <style>
-/****************************
- *  Font: Roboto Flex Regular
+/**
+ * Font: Roboto Flex Variable Font
  */
 
 @font-face {
-    font-family: RobotoFlex;
-    src: url("https://s3.amazonaws.com/benetta.net/fonts/robotoflex-woff2/RobotoFlex.woff2") format("woff2");
-    font-display: swap;
-    font-style: normal;
-    font-weight: 100 1000;
-    font-stretch: 25% 151%;
+  font-family: RobotoFlex;
+  font-weight: 100 1000;
+  font-stretch: 25% 151%;
+  src: url("https://s3.amazonaws.com/benetta.net/fonts/robotoflex/RobotoFlex-VariableFont.ttf") format("truetype");
+  font-display:swap;
 }
 
 svg {
